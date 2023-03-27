@@ -5,7 +5,7 @@ pour utiliser git sur un projet existant
 
 
 git init 
-
+"Initialized empty Git repository in /Users/feliciaayodeji/Documents/git/.git/"
 Initialized empty Git repository in C:/Users/harri/Desktop/git/.git/
 => crée un dossier caché => .git dans le projet en cours 
 => ce dossier caché => nom spécial => repository (dépôt)
@@ -16,12 +16,13 @@ Initialized empty Git repository in C:/Users/harri/Desktop/git/.git/
 => fichier internes de git qui lui permettent de fonction 
 
 => git init  
-fatal: Invalid gitfile format: .git
+fatal: invalid gitfile format: /Users/feliciaayodeji/Documents/git/.git
 
 au lieu de "Initialized empty Git repository in C:/Users/harri/Desktop/git/.git/"
 
 .git créée qui empêche la création du dossier .git 
 rm -fr .git // permet de supprimer un fichier / dossier sur Linux / MacOS 
+feliciaayodeji@Felicias-Air git % rm -rf .git( // permet de supprimer un fichier / dossier sur Linux / MacOS )
 
 git init
 "Initialized empty Git repository in /Users/feliciaayodeji/Documents/git/.git/"
@@ -45,14 +46,5 @@ fin Enter pour valider
 
 pour utiliser git sur un projet existant
  git init
-fatal: invalid gitfile format: /Users/feliciaayodeji/Documents/git/.git
-feliciaayodeji@Felicias-Air git % rm -rf .git
-
-git init
-
-=> crée un dossier caché => .git dans le projet en cours
-=> ce dossier caché => nom spécial => respository
 
 
-configurer le profil utilisateur 
-=> qui a réaliser la modification =>  configurer
