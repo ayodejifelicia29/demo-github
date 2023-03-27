@@ -1,0 +1,40 @@
+git log => la liste de tous les commit 
+commit 82e630821de0c87cae2b7872b682b98794e6528a (HEAD -> main)
+Author: Felicia Ayodeji <felicia.ayodeji55@gmail.com>
+Date:   Mon Mar 27 14:29:33 2023 +0200
+
+    fin exo
+
+	git log --oneline => version plus compact de git log 
+id version courte a0dc31f 
+
+revenir dans le passé
+-----------------------------------
+ 
+git diff connaitre les diférences entre repository et projet 
+pour tous les fichiers qui ne sont pas add
+
+git diff --help
+ 
+ git diff jour1/07-commande.txt
+ -------------------------------------------
+ commande permet de navigateur entre les commits
+ revenir dans le passé (revenir dans les précédent commit)
+
+ git log --oneline
+
+ git checkout a0dc31f(venir dans le passé)
+ attention le fait de revenir dans le passé permet de regarder
+ MAIS vous ne pouvez pas modifier /add /commit
+
+ revenir maintenant
+   git checkout main
+   git checkout master
+
+   -----------------------------
+   git revert (copier un an)
+   git reset  (supprimer des commits entre maintenant et l'id du commit) 
+
+   git log 
+
+
