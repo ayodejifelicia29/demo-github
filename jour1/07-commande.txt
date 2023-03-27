@@ -32,9 +32,30 @@ git diff --help
    git checkout master
 
    -----------------------------
-   git revert (copier un an)
+   git revert (copier un ancien commit pour le mettre comme commit actuel)
    git reset  (supprimer des commits entre maintenant et l'id du commit) 
 
-   git log 
+   git log -oneline 
+     git reset <id> --hard
+    Attestion git reset détruit supprimer les commits (impossible de les récupérer)
+
+	pas possible de revenur en arrière sur un rest
+
+	=> commande à utiliser si on peut pas faire autrement
+	=> revenir en arrière sans  tout supprimer
+
+	git reflog => journal de toutes les opérations que tu as réalisées
+
+-----------------------------------------------
+ git branch recuperation (you put the id of the repository that was deleted , it will help to get the deleted things)
+ -----------------------------------
+ to get all the deleted commit use things commande 
+ // supprimé // récupérer la suppression
+ git reset (id number) --hard
+ git add --all
+ git commit -m "sauvegarde"
+ git reflog
+git branch recuperation <id reflog avant le reset> 
+git merge
 
 
