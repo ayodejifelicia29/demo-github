@@ -1,0 +1,14 @@
+malik.h@webdevpro.net 
+
+programme de la semaine :
+Git (2 jours)
+GitLab (CI CD) 2 jours => Continus Integration Continus Delivery 
+SQL (1 jour)
+
+pour chaque sujet il y a un support : 
+
+https://formation.webdevpro.net/git (saisir directement dans la barre d'adresse pas dans Google)
+login : git
+password : git
+(mettre les login et password en minuscule)
+
