@@ -105,6 +105,77 @@
 
         add et commit 
         gitk pour confirmer que vous avez bien enregistré votre version dans le repository
+
+		Présenté git => outil de versioning
+		moyen de garder une trace de l'évolution : qui/quand/quoi/pourquoi??
+
+	  4 commandes
+	  git inti => exécuté 1 seule fois lors du projet => créé repository(dépot
+	     
+	  git add --all => plusieurs fois sélectionner quel fichier on veut versionner
+	  git command -m "....." => plusieurs fois l'action d'ajouter dans le repository
+	  // 2 commandes l'un aprés l'autres
+	  //créer COMMIT sauvegarder de version // sauvegard INCREMENTALE
+
+	    travailler => écrire dans un ou plusieurs  fichiers (ajouter une fonction)
+	      Enregister
+		  git add --all
+		  git commit -m "......"
+
+		  gitk => outil tableau de board => réponse qui/quand/quoi/pourquoi??
+
+		  Quand vous travaillez avec git ET Visual Studio Code
+		  Dans  Visual Studio Code => annotation dans l'explorer
+
+		  modifié le  fichier 04-index.html => M
+		  créer un nouveau fichier 05- presentation.html => U
+		  
+		  état de documents par rapport au repository
+		  git status
+		  
+		  Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   jour1/04-index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        jour1/05-presentation.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+git status permettre de connaitre l'ecart entre repository et le projet
+=> fichier 04-index.html => changes not staged
+     expliquer quelles commandes saisir pour changer leur etat
+=> jour1/05-presentation.html => Untracked files :
+
+=> changer son état de Untracked => Unstages
+git add jour1/O5-presentation.html
+git status
+
+Untracked => UnstAged (il est sélectionné et prêt pour commité dans repository)
+
+Unstage => Staged (commité)
+
+ git commit -m "ajout du fichier presentation"
+
+ A => rien (copié de votre fichier === copie incrémentale dans le repository)
+
+ Nouveau fichier
+ U  ===> A ===> rien
+ Untracked
+      git add
+ UnstAge
+      git commit
+   Staged ==> rien
+      
+       dans le cas du fichier 04-index.html (déjà été enregistré dans le repository)
+	   il n'aura pas le status U
+	   git status 
+	   Modified 
+	   git add jour1/04-index.html
+
+
 		-->
 </body>
 </html>
