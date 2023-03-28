@@ -48,6 +48,10 @@
 	git add --all
 	git commit -m "......" sur cette branch
 
+	lorsque vous voulez revenir sur la branch principale 
+	il faut au préalable QUE que les fichiers sur la branch soient
+	à 100% staged 
+
 
 	3a -----------------------------------------------------------------
 	si on est content 
@@ -60,3 +64,11 @@
 	si n'est pas content 
 	git checkout master / main // se déplacer sur la branch principale
 	git branch -D menu // supprimer la branch menu sans la fusionner 
+
+	git merge menu
+
+	Updating ad8f27f..ece120e
+	Fast-forward
+	jour1/09-autre-fichier.js | 9 +++++++++
+	1 file changed, 9 insertions(+)
+	create mode 100644 jour1/09-autre-fichier.js
