@@ -1,0 +1,13 @@
+remote => distant 
+repository => dépôt
+
+=> stocker le dossier .git
+
+envoyer les fichiers soutce +le dossier
+
+
+
+git remote add origin https://feliciaayo@bitbucket.org/feliciacda/demo.git
+git  distant connecté les 2 git ( local <======> remote)
+
+git push -u origin master
