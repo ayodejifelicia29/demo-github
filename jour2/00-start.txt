@@ -46,3 +46,43 @@ Deleted branch menu (was ece120e).
 feliciaayodeji@Felicias-Air git % git branch
 * main
 feliciaayodeji@Felicias-Air git % 
+
+
+correction of the exercices 
+
+feliciaayodeji@Felicias-Air git % git add --all
+feliciaayodeji@Felicias-Air git %  git commit -m "01-exo.html"       
+[main f0d08bc] 01-exo.html
+ 4 files changed, 140 insertions(+)
+ create mode 100644 jour2/00-start.txt
+ create mode 100644 jour2/01-branch.drawio
+ create mode 100644 jour2/01-exo.html
+feliciaayodeji@Felicias-Air git % git add --all
+feliciaayodeji@Felicias-Air git % git commit -m "ajoute article et un formulaire"
+[main 7d8afc9] ajoute article et un formulaire
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+feliciaayodeji@Felicias-Air git % git branch css
+fatal: a branch named 'menu' already exists
+                                  git checkout css 
+
+feliciaayodeji@Felicias-Air git % git branch menu
+fatal: a branch named 'menu' already exists
+feliciaayodeji@Felicias-Air git % git branch 
+* main
+  menu
+feliciaayodeji@Felicias-Air git % git add --all
+feliciaayodeji@Felicias-Air git % git commit -m "style.css"
+[main 9ec7cd5] style.css
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 jour2/style.css
+feliciaayodeji@Felicias-Air git % git checkout menu
+Switched to branch 'menu'
+feliciaayodeji@Felicias-Air git %  git status
+On branch menu
+nothing to commit, working tree clean
+                                    git checkout main 
+
+feliciaayodeji@Felicias-Air git % git merge menu
+Already up to date.
+feliciaayodeji@Felicias-Air git %

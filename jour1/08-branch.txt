@@ -38,7 +38,7 @@
 	   git status => nothing to commit
 
    1-------------------------------------------
-	git branch menu // permet de créer la branch menu (qui est un monde parallèle a la branch principale)
+	git branch (the name of what you are using) menu // permet de créer la branch menu (qui est un monde parallèle a la branch principale)
 	git checkout menu // déplacer  dans la branch principale => branch menu to create new branch 
 	git branch // pour savoir sur quelle branch je travaille
 
@@ -63,7 +63,7 @@
 	3b --------------------------------------------------------------
 	si n'est pas content 
 	git checkout master / main // se déplacer sur la branch principale
-	git branch -D menu // supprimer la branch menu sans la fusionner 
+	git branch -d // supprimer la branch menu sans la fusionner  menu 
 
 	git merge menu
 
