@@ -1,4 +1,4 @@
-			/**
+/**
 			 * créer le fichier 07-exo.js 
 			dans ce créer une fonction calcul(){}
 
@@ -19,8 +19,6 @@
 			git merge => conflit => résoudre
 			*/
 
-
-
-function calcul() {
-	
-}
+			function calcul() {
+				
+			}
