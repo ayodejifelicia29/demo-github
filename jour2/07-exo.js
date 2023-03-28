@@ -20,5 +20,6 @@
 			*/
 
 			function calcul() {
-				
+				calcul(a,b)
+					return a + b 
 			}
