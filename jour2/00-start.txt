@@ -12,6 +12,7 @@ https://bitbucket.org/formationwebdevpro/git-d-mars-2023/src/main/
 2 créer un fichier .....drawio
 branch => 
 
+
 cas pratique :
 
 dans le dossier jour2 => créer un fichier 01-exo.html mettre une barre de menu add + commit 
@@ -26,3 +27,22 @@ positionner sur la branch principale fusionner la branch principale avec la bran
 
 
 https://onlywei.github.io/explain-git-with-d3/ (git commit)
+
+
+(to get the document back if it delete from branch)
+
+feliciaayodeji@Felicias-Air git %  git status
+On branch menu
+nothing to commit, working tree clean
+feliciaayodeji@Felicias-Air git % git branch   
+  main
+* menu
+feliciaayodeji@Felicias-Air git % git checkout main
+Switched to branch 'main'
+feliciaayodeji@Felicias-Air git % git merge menu
+Already up to date.
+feliciaayodeji@Felicias-Air git % git branch -d menu
+Deleted branch menu (was ece120e).
+feliciaayodeji@Felicias-Air git % git branch
+* main
+feliciaayodeji@Felicias-Air git % 

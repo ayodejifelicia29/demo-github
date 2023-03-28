@@ -39,7 +39,7 @@
 
    1-------------------------------------------
 	git branch menu // permet de créer la branch menu (qui est un monde parallèle a la branch principale)
-	git checkout menu // déplacer  dans la branch principale => branch menu
+	git checkout menu // déplacer  dans la branch principale => branch menu to create new branch 
 	git branch // pour savoir sur quelle branch je travaille
 
 
