@@ -19,7 +19,8 @@ j'ai  n'ai fait de add / pas  de commit
   git branch <nom> 
   git checkout <nom>
 
-  add
+  (commit et add at the same time)
+  git  commit -a -m "message"
 
   
 
