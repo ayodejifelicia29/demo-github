@@ -1,4 +1,4 @@
-je suis sur github 
+je suis sur github (weg)
 
 => je trouve un projet intéressant 
 => j'aimerai l'utiliser => git clone
