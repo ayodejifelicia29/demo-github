@@ -60,5 +60,6 @@ git push -u github main
 
 -----------------
 
-=> récuperer des informations depuis 
-git 
+=> récuperer des informations depuis un projet distant
+git add --all
+git add-A
