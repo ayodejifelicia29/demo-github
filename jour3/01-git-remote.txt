@@ -1,1 +1,3 @@
-git remote => établir un lien
+git remote => établir un lien avec un dépôt distant
+
+il est possible d'avoir PLUSIEURS remote 
