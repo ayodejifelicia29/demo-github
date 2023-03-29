@@ -7,4 +7,34 @@ git pull => récupérer ET faire une commit
 git fetch  => récupérer les informations
 
 git clone => si vous voulez récupérer un projet distant intégralement
+          => vous n'avez aucun fichier source en local
+		  => source (fichiers de code) ET .git
+
+
+
+	  git add --all
+	  git commit -m "preparation"
+	  git push github ou origin main
+
+	  --------------------
+	  ( to get a document from github with fetch)
+	  git fetch github main
+	  git merge github/main
+
+
+	  --------------------------
+projet à 100% nouveau (je n'ai pas en local de dossier / .git)
+et je veux le récupérer à 100% 
+
+git init 
+depot et source distantes 
+
+=> git clone 
+
+=> git clone https://github.com/izemsabrina/demo-github.git
+importer / décompresser / créer un dossier demo-github sur bureau
+
+git clone https://github.com/izemsabrina/demo-github.git toto
+importer / décompresser / créer un dossier toto qui contient tout le code sur bureau
+
 
