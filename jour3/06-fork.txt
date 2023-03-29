@@ -1,0 +1,38 @@
+je suis sur github 
+
+=> je trouve un projet intéressant 
+=> j'aimerai l'utiliser => git clone
+=>  je constate des améliorations possibles
+=> j'aimerai aider le créateur du projet
+=> même si le projet est public 
+=> je peux pas écrire dans ce projet 
+=> je peux lui proposer d'ajouter un code (même si je ne suis pas 
+dans le groupe de travail)
+
+
+
+
+
+=> fork (fourchette) github
+=> copier le projet => dans mon espace (dans lequel j'ai tous les droits)
+A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without
+affecting the original project.
+
+     (to send a for to someonework )
+git clone <mon url/projet jacques andre> (terminal laptop just copie the code for github and add to clone)
+git branch suggestion
+git checkout suggestion
+modifier un fichier ou deux 
+git add --all
+git commit -m "proposition git"
+git push --set-upstream origin suggestion
+
+=> sur github (dans mon projet => pull request)
+=> accepter dans son compt (et les modification réalisées vont
+être merge dans le site internet sur github)
+
+as pratique 
+pouvez vous me faire des pull request sur le dépôt public 
+suivant :
+
+https://github.com/webdevproformation/demo-github
