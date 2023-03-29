@@ -18,7 +18,7 @@ dans le groupe de travail)
 A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without
 affecting the original project.
 
-     (to send a for to someonework )
+     (to send a for to someonework  fork)
 git clone <mon url/projet jacques andre> (terminal laptop just copie the code for github and add to clone)
 git branch suggestion
 git checkout suggestion
@@ -29,7 +29,8 @@ git push --set-upstream origin suggestion
 
 => sur github (dans mon projet => pull request)
 => accepter dans son compt (et les modification réalisées vont
-être merge dans le site internet sur github)
+être merge dans le site internet sur github) 
+
 
 as pratique 
 pouvez vous me faire des pull request sur le dépôt public 
