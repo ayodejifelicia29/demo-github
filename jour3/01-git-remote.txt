@@ -56,3 +56,9 @@ git push github main
 create repository 
 4 git remote add github https://github.com/ayodejifelicia29/demo-github.git
 git push -u github main
+
+
+-----------------
+
+=> récuperer des informations depuis 
+git 
