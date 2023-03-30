@@ -1,0 +1,17 @@
+body{
+    font-family: sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu{
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+.menu li{
+    margin-right: 20px;
+}
+p{
+    color: red;
+}
