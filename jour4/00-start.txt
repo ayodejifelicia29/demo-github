@@ -1,0 +1,28 @@
+https://formation.webdevpro.net/git (saisir directement dans la barre d'adresse pas dans Google)
+login : git
+password : git
+(mettre les login et password en minuscule)
+
+notes de cours :
+https://bitbucket.org/formationwebdevpro/git-d-mars-2023/src/main/
+
+
+ travail qui est stockée sur le disque dur ET 
+ créer un repository sur un site internet (bitbucket /Github /Gitlab)
+
+ en local
+ git init 
+ git add --all
+ git commit -m "presentation"
+
+    git add --all
+	git add -add
+	=> quelque soit le cas de figure => tout est sélectionner
+
+ git add * => TOUT en SQL MAIS attention
+             en fonction du shell dans le quel on utilise cette commande * peut ommettre
+			 certain fichier
+			 si cmd et un fichier qui commence par .env  git add *
+			 si gitbash git add *
+git add . 
+=> quelque soit le cas de figure => tout est sélectionner
