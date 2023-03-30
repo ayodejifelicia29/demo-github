@@ -26,3 +26,21 @@ https://bitbucket.org/formationwebdevpro/git-d-mars-2023/src/main/
 			 si gitbash git add *
 git add . 
 => quelque soit le cas de figure => tout est sélectionner
+
+---------------------------
+git add --all
+git commit -m "...."
+             -a (marche pour doisser modifie)
+git commit -a  -m '..."  ok uniquement pour les fichiers modifified 
+(fichier Untracked ne soit add et commit)
+
+----------------------------
+
+github pages => permet de mettre en ligne des pages web statique (css/html et js)
+=> branch spéciale => non n'importe quelle branch
+=> combien de temps ? => 2 min max sinon pb
+=> il faut un fichier index.html à la racine d'une branch
+
+1 créer 
+2 push 
+
